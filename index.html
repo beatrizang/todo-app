@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+  
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <main class="main">
+    <div class="top">
+      <h1 class="top__title">Todo</h1>
+      
+      <img src="./assets/images/icon-moon.svg" alt="Icon Moon">
+    </div>
+    <form>
+      <input type="text" name="taskText" autocomplete="off" placeholder="Create a new todo..." class="input">
+    </form>
+    <div class="container__list">
+      <div class="list">
+        <div class="task">
+         <div class="task__left">
+          <div class="circle"></div>
+          <p>Complete online cuourse javascrit</p>
+         </div>            
+         <img src="./assets/images/icon-cross.svg" alt="">
+        </div>
+      </div>
+      <div class="list__bottom">
+        <p><span></span>items left</p>
+        <div>
+          <button class="button">All</button>
+          <button class="button">Active</button>
+          <button class="button">Completed</button>
+        </div>
+        <button class="button__clear">Clear Completed</button>
+      </div>
+    </div>
+    <p class="last__text">Drag and drop to reorder list</p>
+  </main>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
